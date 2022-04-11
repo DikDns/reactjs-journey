@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Component } from "react";
 
-function App() {
+//! Component and Properties
+
+function Biodata(props) {
+  return <span>Umurnya {props.age}</span>;
+}
+
+function Greeting(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <h1>
+      Halo {props.name} | <Biodata age={props.age} />
+    </h1>
   );
+}
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <Greeting name="Andika" age="17" />
+          <Greeting name="Lelouch" age="19" />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
