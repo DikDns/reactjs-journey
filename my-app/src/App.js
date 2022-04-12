@@ -42,13 +42,63 @@ class Timer extends Component {
   }
 }
 
+//! Event Handler
+
+// Function Component
+function Clicker() {
+  function handleClick(e) {
+    alert("Halo! :)");
+    e.preventDefault();
+  }
+
+  return (
+    <a href="#" onClick={handleClick}>
+      Click Me!
+    </a>
+  );
+}
+
+// Class Component
+class Toggle extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      kondisi: false,
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState((state) => ({
+      kondisi: !state.kondisi,
+    }));
+    const appHeader = document.querySelector(`.App-header`);
+    appHeader.style.backgroundColor = this.state.kondisi
+      ? "#282c34"
+      : "#c6d9ff";
+  }
+
+  render() {
+    return (
+      <button onClick={this.handleClick}>
+        Toggle <p>Lampu sedang {this.state.kondisi ? "menyala" : "mati"}</p>
+      </button>
+    );
+  }
+}
+
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Timer start="100" />
+          <Timer start="0" />
+          <br />
+          <Clicker />
+          <br />
+          <Toggle />
         </header>
       </div>
     );
