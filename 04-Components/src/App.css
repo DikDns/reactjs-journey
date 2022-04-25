@@ -1,0 +1,38 @@
+body {
+  background-color: #f2cc8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #3d405b;
+}
+
+main {
+  background-color: #f4f1de;
+  border-radius: 20px;
+  width: 900px;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  list-style: none;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-link a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.list-link a:hover {
+  color: #e07a5f;
+  text-decoration: underline;
+}
