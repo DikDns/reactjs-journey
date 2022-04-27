@@ -1,0 +1,122 @@
+body {
+  background-color: #282d35;
+  color: #fff;
+}
+
+/* Nav Style */
+nav {
+  background-color: #21222a;
+  color: #deebf8;
+  padding: 10px 40px;
+  height: 90px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 60px;
+}
+
+nav h3 {
+  color: #61dafb;
+  margin-right: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav h4 {
+  color: inherit;
+  font-size: 1.25em;
+  font-weight: 200;
+}
+
+/* Main Style */
+
+main {
+  padding: 20px 40px;
+  background-image: url("img/logo-bg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: local;
+}
+
+main h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+main ul {
+  font-size: 1.25em;
+  list-style: none;
+}
+
+main ul li {
+  margin: 10px 0;
+}
+
+main ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61dafb; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* Responsive BreakPoints */
+@media only screen and (max-width: 600px) {
+  /* Nav Style */
+  nav {
+    padding: 5px 10px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav h3 {
+    color: #61dafb;
+    margin-right: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  nav h4 {
+    color: inherit;
+    margin: 10px 0;
+    font-size: 1.25em;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Main Style */
+
+  main {
+    padding: 10px 20px;
+    background-image: url("img/logo-bg.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: local;
+  }
+
+  main h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+
+  main ul {
+    margin-left: -20px;
+    font-size: 1.25em;
+    list-style: none;
+  }
+
+  main ul li {
+    margin: 10px 0;
+  }
+}
