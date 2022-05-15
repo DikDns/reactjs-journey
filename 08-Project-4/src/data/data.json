@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Tangkuban Parahu",
+    "description": "Tangkuban Parahu is a stratovolcano 30 km north of the city of Bandung, the provincial capital of West Java, Indonesia. It is a popular tourist attraction where tourists hike or ride to the edge of the crater to view the hot water springs and boiling mud up close.",
+    "location": "North Bandung",
+    "date": "01 Oct, 2017 - 7 Oct, 2017",
+    "photo": {
+      "name": "tangkuban-parahu.jpg",
+      "description": "a small tree and a big crater in the background at daytime",
+      "author": {
+        "name": "Fery Andriyansyah",
+        "source-link": "https://unsplash.com/@feryadysh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      },
+      "source-link": "https://unsplash.com/photos/TwyNFuPV5To",
+      "unsplash-link": "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    },
+    "google-maps-link": "https://goo.gl/maps/h4ZgpoqEVEkChY4N6"
+  },
+  {
+    "id": 2,
+    "name": "Kawah Putih",
+    "description": "Kawah Putih is a crater lake and tourist spot in a volcanic crater about 50 km south of Bandung in West Java in Indonesia. The lake itself represents a relatively stable volcanic system with no records of significant activity since around 1600.",
+    "location": "South Bandung",
+    "date": "09 May, 2011 - 21 May, 2011",
+    "photo": {
+      "name": "kawah-putih.jpg",
+      "description": "a tree in the side with a lightblue lake in the background at foggy daytime",
+      "author": {
+        "name": "Abu Abdillah",
+        "source-link": "https://unsplash.com/@salafy_engineer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      },
+      "source-link": "https://unsplash.com/photos/mDQgFNNtqzo",
+      "unsplash-link": "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    },
+    "google-maps-link": "https://goo.gl/maps/6JQqX9bD5A6WDHyc9"
+  },
+  {
+    "id": 3,
+    "name": "Tebing Keraton",
+    "description": "At 1,200 meters above sea level, Tebing Keraton is located within the Ir. H. Djuanda Forest Park, at Ciburial Village, Cimenyan sub-district, in the Bandung Regency. At the main area, there is a rock that bulges over the edge of the cliff which makes it a perfect place to observe over the incredible natural surroundings.",
+    "location": "North Bandung",
+    "date": "16 Jan, 2015 - 20 Jan, 2015",
+    "photo": {
+      "name": "tebing-keraton.jpg",
+      "description": "man standing on mountain top overlooking green-leafed trees at foggy daytime",
+      "author": {
+        "name": "Muhamad Rizal Firmansyah",
+        "source-link": "https://unsplash.com/@mrizalfrmnsyh_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+      },
+      "source-link": "https://unsplash.com/photos/Z7dg-urHxcw",
+      "unsplash-link": "https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    },
+    "google-maps-link": "https://g.page/tebing-keraton-jawa-barat?share"
+  }
+]
