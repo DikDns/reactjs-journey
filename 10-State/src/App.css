@@ -1,0 +1,230 @@
+/* Responsive BreakPoints */
+/* @media only screen and (max-width: 600px) {
+} */
+
+main {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 250px;
+}
+
+/* ***************************************************** */
+/*! NAV STYLING                                          */
+/* ***************************************************** */
+
+nav {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* ***************************************************** */
+/*! JUMBOTRON STYLING                                    */
+/* ***************************************************** */
+
+.jumbotron {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.headline {
+  margin: 30px 0 10px;
+  font-family: inherit;
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 45px;
+  color: black;
+}
+
+.desc {
+  margin: 10px 0 30px;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: lighter;
+  color: #222222;
+}
+
+/* ***************************************************** */
+/*! CARDS STYLING                                        */
+/* ***************************************************** */
+
+.cards {
+  margin-top: 50px;
+  display: flex;
+  overflow: auto;
+  padding: 0 30px;
+}
+
+.card {
+  width: 180px;
+  margin: 10px 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.75em;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 3px 8px;
+  height: 20px;
+}
+
+.card-thumb img {
+  border-radius: 20px;
+  width: 180px;
+  height: 240px;
+}
+
+.card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #222222;
+}
+
+.card-info .head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.rating {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+.count,
+.state {
+  font-size: 1em;
+  color: #918e9b;
+  margin-right: 3px;
+}
+
+.info {
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+  margin: 5px 0;
+}
+
+.price {
+  font-family: inherit;
+  font-size: 1em;
+  color: inherit;
+  margin: 0;
+}
+
+.price strong {
+  font-weight: bold;
+}
+
+/* ***************************************************** */
+/*! ANIMATION                                            */
+/* ***************************************************** */
+
+.card:hover {
+  opacity: 0.75;
+}
+
+/* ***************************************************** */
+/*! Responsive Breakpoints                               */
+/* ***************************************************** */
+
+@media screen and (min-width: 512px) {
+  /* ***************************************************** */
+  /*! NAV STYLING                                          */
+  /* ***************************************************** */
+
+  nav {
+    height: 70px;
+
+    padding: 0 40px;
+  }
+
+  nav img {
+    width: 100px;
+  }
+
+  /* ***************************************************** */
+  /*! JUMBOTRON STYLING                                    */
+  /* ***************************************************** */
+
+  .jumbotron {
+    padding: 20px 40px;
+  }
+
+  .banner {
+    width: 80%;
+    align-self: center;
+  }
+
+  .headline {
+    font-size: 3em;
+  }
+
+  .desc {
+    font-size: 1.5em;
+    width: 75%;
+  }
+}
+
+/* ***************************************************** */
+/*! Responsive Breakpoints                               */
+/* ***************************************************** */
+
+@media screen and (min-width: 800px) {
+  /* ***************************************************** */
+  /*! CARDS STYLING                                        */
+  /* ***************************************************** */
+
+  .cards {
+    justify-content: space-evenly;
+  }
+}
+
+/* ***************************************************** */
+/*! Responsive Breakpoints                               */
+/* ***************************************************** */
+
+@media screen and (min-width: 1024px) {
+  /* ***************************************************** */
+  /*! JUMBOTRON STYLING                                    */
+  /* ***************************************************** */
+
+  .banner {
+    width: 40%;
+  }
+
+  .desc {
+    width: 600px;
+  }
+}
