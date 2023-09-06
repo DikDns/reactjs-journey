@@ -1,9 +1,9 @@
-# react-basics
+# DikDns React JS Journey
 
-## Projects
-- Project 1 > https://react-project-1.dikdns.com/
-- Project 2 > https://react-project-2.dikdns.com/
-- Project 3 > https://react-project-3.dikdns.com/
-- Project 4 > https://react-project-4.dikdns.com/
-- Project 5 > https://react-project-5.dikdns.com/
-- Project 6 > https://react-project-6.dikdns.com/
+## ReactJS Projects
+1. [ReactJS Fun Facts](https://reactjs-fun-facts-dikdns.netlify.app/)
+2. [Business Card](https://eni-kusrini.netlify.app/#title)
+3. [AirBnB Static Clone](https://air-bnb-dikdns.netlify.app/)
+4. [Travel Journal](https://travel-journal-dikdns.netlify.app/)
+5. [Meme Generator](https://meme-generator-dikdns.netlify.app/)
+6. [Notes App](https://notesapp-dikdns.netlify.app/)
